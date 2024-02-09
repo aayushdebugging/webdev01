@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Homepage</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            display: inline-block;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        main {
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .column {
+            flex-basis: 48%;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+                <li><a href="teams.html">Favorite Teams</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="column">
+            <h2>About Me</h2>
+            <p>I am currently a second year student at Rajiv Gandhi Institute Of Petroleum Technology</p>
+        </div>
+        <div class="column">
+            <h2>Contact</h2>
+            <p>Email: aayushrajbinod@gmail.com</p>
+            <p>Phone: 91-9064494943</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Homepage. All rights reserved.</p>
+    </footer>
+</body>
+</html>
